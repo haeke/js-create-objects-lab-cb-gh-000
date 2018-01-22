@@ -17,3 +17,15 @@ function Ferret(name, age, foodRequirements) {
   this.age = age;
   this.foodRequirements = foodRequirements;
 }
+
+function Bird(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+function Fish(name, species, waterConditions) {
+  this.name = name;
+  this.species = species;
+  this.waterConditions = waterConditions;
+}
+
